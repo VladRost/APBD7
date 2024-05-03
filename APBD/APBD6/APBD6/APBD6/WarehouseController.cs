@@ -69,7 +69,41 @@ public class WarehouseController: ControllerBase
         
         //------------------Product_warehouse check
         
+        //skip
         
-        return Ok(product);
+        //------------------Update FullfilledAt
+        
+        cmd = new NpgsqlCommand(
+            "UPDATE \"Order\" SET FulfilledAt = @FulfilledAt WHERE IdProduct = @IdProduct AND Amount = @Amount",
+            _connection);
+        cmd.Parameters.AddWithValue("FulfilledAt", DateTime.Now);
+        cmd.Parameters.AddWithValue("IdProduct", IdProduct);
+        cmd.Parameters.AddWithValue("Amount", amount);
+        cmd.ExecuteNonQuery();
+        
+        //------------------Update FullfilledAt
+
+        cmd = new NpgsqlCommand(
+            "INSERT INTO Product_Warehouse (IdProduct, IdWarehouse, Price, CreatedAt) VALUES (@IdProduct, @IdWarehouse, @Price, @CreatedAt) RETURNING idproductwarehouse",
+            _connection);
+        
+        cmd.Parameters.AddWithValue("IdProduct", product.IdProduct);
+        cmd.Parameters.AddWithValue("IdWarehouse", product.IdWarehouse);
+
+
+        var cmd2 = new NpgsqlCommand("SELECT Price FROM Product WHERE IdProduct = @IdProduct", _connection);
+            
+        cmd2.Parameters.AddWithValue("IdProduct",IdProduct);
+        
+        decimal price =  Convert.ToDecimal(cmd2.ExecuteScalar())* product.Amount;
+        
+        cmd.Parameters.AddWithValue("Price", price);
+
+        cmd.Parameters.AddWithValue("CreatedAt", DateTime.Now);
+        
+        int idProductWarehouse = Convert.ToInt32(cmd.ExecuteScalar());
+        
+        return Ok(idProductWarehouse);
     }
+    
 }
