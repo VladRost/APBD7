@@ -1,0 +1,19 @@
+CREATE DATABASE Animals;
+USE Animals
+CREATE TABLE Animal (
+                        idanimal INT AUTO_INCREMENT PRIMARY KEY,
+                        name VARCHAR(255),
+                        description TEXT,
+                        category VARCHAR(50),
+                        area VARCHAR(100)
+);
+INSERT INTO Animal (idanimal, name, description, category, area) VALUES
+                                                                     (1, 'Lew', 'Wielki kot drapieżny żyjący na sawannach Afryki.', 'Ssak', 'Afryka'),
+                                                                     (2, 'Orzeł', 'Duży ptak drapieżny z długimi skrzydłami.', 'Ptak', 'Ameryka Północna'),
+                                                                     (3, 'Żyrafa', 'Najwyższe zwierzę lądowe z długą szyją.', 'Ssak', 'Afryka'),
+                                                                     (4, 'Pingwin', 'Ptak nielotny żyjący na Antarktydzie.', 'Ptak', 'Antarktyda'),
+                                                                     (5, 'Wąż', 'Długi, bezkończący się gad, który może być jadowity.', 'Gad', 'Świat'),
+                                                                     (6, 'Delfin', 'Inteligentny ssak morski żyjący w oceanach.', 'Ssak', 'Ocean'),
+                                                                     (7, 'Słoń', 'Ogromne lądowe zwierzę z długimi kłami.', 'Ssak', 'Afryka'),
+                                                                     (8, 'Kangur', 'Torba ssaków żyjących w Australii.', 'Ssak', 'Australia');
+
