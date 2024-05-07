@@ -1,0 +1,16 @@
+/home/sedepr0/Documents/APBD/APBD7/LinqCwiczenia/LinqTutorials/bin/Debug/net5.0/LinqTutorials
+/home/sedepr0/Documents/APBD/APBD7/LinqCwiczenia/LinqTutorials/bin/Debug/net5.0/LinqTutorials.deps.json
+/home/sedepr0/Documents/APBD/APBD7/LinqCwiczenia/LinqTutorials/bin/Debug/net5.0/LinqTutorials.runtimeconfig.json
+/home/sedepr0/Documents/APBD/APBD7/LinqCwiczenia/LinqTutorials/bin/Debug/net5.0/LinqTutorials.runtimeconfig.dev.json
+/home/sedepr0/Documents/APBD/APBD7/LinqCwiczenia/LinqTutorials/bin/Debug/net5.0/LinqTutorials.dll
+/home/sedepr0/Documents/APBD/APBD7/LinqCwiczenia/LinqTutorials/bin/Debug/net5.0/LinqTutorials.pdb
+/home/sedepr0/Documents/APBD/APBD7/LinqCwiczenia/LinqTutorials/obj/Debug/net5.0/LinqTutorials.GeneratedMSBuildEditorConfig.editorconfig
+/home/sedepr0/Documents/APBD/APBD7/LinqCwiczenia/LinqTutorials/obj/Debug/net5.0/LinqTutorials.AssemblyInfoInputs.cache
+/home/sedepr0/Documents/APBD/APBD7/LinqCwiczenia/LinqTutorials/obj/Debug/net5.0/LinqTutorials.AssemblyInfo.cs
+/home/sedepr0/Documents/APBD/APBD7/LinqCwiczenia/LinqTutorials/obj/Debug/net5.0/LinqTutorials.csproj.CoreCompileInputs.cache
+/home/sedepr0/Documents/APBD/APBD7/LinqCwiczenia/LinqTutorials/obj/Debug/net5.0/LinqTutorials.sourcelink.json
+/home/sedepr0/Documents/APBD/APBD7/LinqCwiczenia/LinqTutorials/obj/Debug/net5.0/LinqTutorials.dll
+/home/sedepr0/Documents/APBD/APBD7/LinqCwiczenia/LinqTutorials/obj/Debug/net5.0/refint/LinqTutorials.dll
+/home/sedepr0/Documents/APBD/APBD7/LinqCwiczenia/LinqTutorials/obj/Debug/net5.0/LinqTutorials.pdb
+/home/sedepr0/Documents/APBD/APBD7/LinqCwiczenia/LinqTutorials/obj/Debug/net5.0/LinqTutorials.genruntimeconfig.cache
+/home/sedepr0/Documents/APBD/APBD7/LinqCwiczenia/LinqTutorials/obj/Debug/net5.0/ref/LinqTutorials.dll
