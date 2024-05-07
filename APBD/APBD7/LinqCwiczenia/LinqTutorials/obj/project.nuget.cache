@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "yxZIzL5tXc7mV+ce+lFLqFKCsYhDgErkrVytxm9vC5Atl82ZoA3QdRLnMGVCPVeNvhiSodTt54sOMEBEgWYpcw==",
+  "dgSpecHash": "p6QFh33BSTruDsuVwy6kJ/MuOInvxC2kMwcjD8oc2xs7h2btHPkdNMK0okzM+RXW0ti8sGbHB7Uajls+6H+1zA==",
   "success": true,
   "projectFilePath": "/home/sedepr0/Documents/APBD/APBD7/LinqCwiczenia/LinqTutorials/LinqTutorials.csproj",
   "expectedPackageFiles": [
+    "/home/sedepr0/.nuget/packages/microsoft.netcore.platforms/5.0.0/microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "/home/sedepr0/.nuget/packages/microsoft.netcore.app.ref/5.0.0/microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
     "/home/sedepr0/.nuget/packages/microsoft.aspnetcore.app.ref/5.0.0/microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
     "/home/sedepr0/.nuget/packages/microsoft.netcore.app.host.linux-x64/5.0.17/microsoft.netcore.app.host.linux-x64.5.0.17.nupkg.sha512"

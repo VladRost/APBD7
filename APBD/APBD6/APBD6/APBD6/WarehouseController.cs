@@ -1,8 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Data.SqlClient;
 using Npgsql;
 
 namespace APBD6;
-[Route("api/[controller]")]
+[Route("api/warehouse")]
 [ApiController]
 public class WarehouseController: ControllerBase
 {
